@@ -139,11 +139,11 @@ module GoCardlessPro
     def default_options
       {
         default_headers: {
-          'GoCardless-Version' => '2015-07-06',
-          'User-Agent' => user_agent.to_s,
-          'Content-Type' => 'application/json',
-          'GoCardless-Client-Library' => 'gocardless-pro-ruby',
-          'GoCardless-Client-Version' => '2.16.1',
+          'gocardless-version' => '2015-07-06',
+          'user-agent' => user_agent.to_s,
+          'content-type' => 'application/json',
+          'gocardless-client-library' => 'gocardless-pro-ruby',
+          'gocardless-client-version' => '2.16.1',
         },
       }
     end
